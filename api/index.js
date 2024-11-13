@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const { JSONRESPONSE } = require("./data");
+const { JSONRESPONSE } = require("../data");
 
 const corsOptions = {
   origin: "*",
